@@ -1,0 +1,66 @@
+.mainDiv {
+  margin-top: 24px;
+  gap: 24px;
+}
+
+.box {
+  width: 394.66px;
+  height: 350px;
+  border-radius: 16px;
+  padding: 32px;
+  background-color: #f4f5f5;
+}
+
+.heading {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 500;
+  color: #101010;
+}
+
+.subText {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #525456;
+  margin-top: 8px;
+}
+
+.firstChartBox {
+  margin-top: 50px;
+  width: 330.6666564941406;
+  height: 134;
+  gap: 31px;
+  border-radius: 16px;
+  padding: 24px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.boxTwoOptionsDiv {
+  margin-top: 72px;
+}
+
+.boxTwoOptions {
+  width: 60;
+  height: 60;
+  background-color: #fff;
+  border-radius: 12.67px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.measureLabel {
+  margin-top: 33px;
+  width: 104px;
+  height: 28.79px;
+  border-radius: 107.5px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

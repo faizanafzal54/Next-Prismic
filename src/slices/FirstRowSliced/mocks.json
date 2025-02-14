@@ -1,0 +1,204 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "General"
+						}
+					}
+				]
+			},
+			"second_heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Esse elit Lorem tempor magna adipisicing incididunt labore cupidatat veniam commodo anim tempor. Esse dolor tempor officia elit occaecat eu. Est fugiat et laborum laboris."
+						}
+					}
+				]
+			},
+			"option_one": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Eu veniam est cupidatat in irure velit dolor mollit qui dolore id."
+						}
+					}
+				]
+			},
+			"option_two": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Irure sint nisi elit irure aliqua aliquip amet dolor deserunt exercitation officia."
+						}
+					}
+				]
+			},
+			"option_three": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Minim anim ipsum laboris consectetur officia esse eiusmod aute laboris non non. Culpa eiusmod aliqua magna laboris irure et culpa. Dolore labore labore nulla occaecat laboris sunt culpa culpa dolore sint cillum in culpa."
+						}
+					}
+				]
+			},
+			"option_four": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Aliquip nulla Lorem ad veniam est veniam. Voluptate dolore dolor laborum eiusmod et aliqua irure aliqua sit deserunt amet do adipisicing ea."
+						}
+					}
+				]
+			},
+			"option_five": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Officia id adipisicing irure amet Lorem sunt ut. Cillum ullamco ea consectetur reprehenderit in."
+						}
+					}
+				]
+			},
+			"option_six": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Eiusmod nostrud do dolore nostrud sint irure eiusmod do aliqua et in ipsum commodo."
+						}
+					}
+				]
+			},
+			"second_box_heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "Nearly"
+						}
+					}
+				]
+			},
+			"second_box_sub_heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Occaecat consectetur ut commodo incididunt nisi aliquip voluptate occaecat non voluptate velit. Ea ex officia nulla proident."
+						}
+					}
+				]
+			},
+			"validation": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Aliqua ut voluptate velit ad officia qui commodo do Lorem ullamco cillum magna pariatur. Incididunt sit tempor tempor pariatur id cillum eu cupidatat ullamco officia et amet."
+						}
+					}
+				]
+			},
+			"not_validation": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Velit irure exercitation sit labore labore consectetur cupidatat eu et nulla qui eiusmod. Consectetur ipsum occaecat nostrud qui."
+						}
+					}
+				]
+			},
+			"date": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Culpa aute ad elit consequat elit fugiat pariatur ex sunt ex incididunt voluptate."
+						}
+					}
+				]
+			},
+			"number_zero": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Ea veniam officia ut sit. Nulla minim nostrud irure Lorem nulla."
+						}
+					}
+				]
+			},
+			"number_four": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Minim nostrud ea magna cupidatat incididunt dolore deserunt qui adipisicing adipisicing excepteur culpa consequat velit Lorem. Commodo cillum dolor proident do consectetur voluptate voluptate ex cillum."
+						}
+					}
+				]
+			},
+			"slice": {
+				"key": "1669092c-9289-4001-b3a4-27e61912c318",
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "DocumentLink",
+					"id": "mock_document_id"
+				}
+			},
+			"done": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Deserunt labore fugiat laborum ex aliquip eu reprehenderit."
+						}
+					}
+				]
+			},
+			"warning": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Ullamco ut mollit tempor ipsum qui dolore id et enim sunt cillum enim esse cillum sunt. Occaecat dolor cillum dolore laborum consequat ex sint consequat. Tempor aute cupidatat quis ut duis aliqua amet aliqua proident duis."
+						}
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

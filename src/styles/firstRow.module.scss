@@ -1,0 +1,87 @@
+.mainDiv {
+  display: flex;
+  padding-top: 64px;
+  gap: 24px;
+}
+
+.first {
+  width: 604px;
+  height: 350px;
+  background-color: #101010;
+  padding: 0 32px;
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+  border-radius: 16px;
+  gap: 60px;
+}
+
+.secFirst {
+  padding-top: 32px;
+}
+
+.primaryHeading {
+  font-size: 22px;
+  line-height: 26.4px;
+  font-weight: 500;
+}
+
+.secondaryHeading {
+  margin-top: 8px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #b2b5b6;
+  margin-top: 8px;
+}
+
+.labelDiv {
+  height: 52px;
+  display: flex;
+  align-items: center;
+  gap: 8.06px;
+  justify-content: left;
+}
+
+.labelIcon {
+}
+
+.label {
+  font-weight: 400;
+  font-size: 12.1px;
+  line-height: 14.52px;
+  color: #888c8f;
+}
+
+.second {
+  border-radius: 16px;
+  padding: 32px;
+  background-color: #f4f5f5;
+  max-height: 350px;
+  overflow: scroll;
+}
+
+.secondPrimaryHeading {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26.4px;
+}
+
+.secondSecondaryHeading {
+  margin-top: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #525456;
+}
+
+.tableBox {
+  margin-top: 38px;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 16px;
+}
+.cell {
+  padding: 11px 16px;
+  font-size: 12px;
+}

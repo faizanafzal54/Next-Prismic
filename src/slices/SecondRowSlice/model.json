@@ -1,0 +1,129 @@
+{
+  "id": "second_row_slice",
+  "type": "SharedSlice",
+  "name": "SecondRowSlice",
+  "description": "SecondRowSlice",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "heading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Heading",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        },
+        "sub_heading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Sub Heading",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "without_green": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Without Green",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "with_green": {
+          "type": "StructuredText",
+          "config": {
+            "label": "With Green",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "graph_height": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Graph Height",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "graph_second_height": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Graph Second Height",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "graph_third_height": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Graph Third Height",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph"
+          }
+        },
+        "secondslice": {
+          "type": "Link",
+          "config": {
+            "label": "SecondSlice",
+            "select": "document",
+            "repeat": false,
+            "customtypes": [
+              "secondrowslice"
+            ]
+          }
+        },
+        "second_heading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Second Heading",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        },
+        "second_sub_heading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Second Sub Heading",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "thirdheading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "ThirdHeading",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        },
+        "third_sub_heading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Third Sub Heading",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

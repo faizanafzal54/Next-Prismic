@@ -1,0 +1,31 @@
+{
+  "format": "custom",
+  "id": "thirdrowslice",
+  "label": "ThirdRowSlice",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "UID"
+        }
+      },
+      "heading": {
+        "type": "Text",
+        "config": {
+          "label": "Heading",
+          "placeholder": ""
+        }
+      },
+      "second_heading": {
+        "type": "Text",
+        "config": {
+          "label": "Second Heading",
+          "placeholder": ""
+        }
+      }
+    }
+  }
+}

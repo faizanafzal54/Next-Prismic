@@ -1,0 +1,183 @@
+{
+  "id": "first_row_sliced",
+  "type": "SharedSlice",
+  "name": "FirstRowSliced",
+  "description": "FirstRowSliced",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "heading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Heading",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        },
+        "second_heading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Second Heading",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "option_one": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Option One",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "option_two": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Option Two",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "option_three": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Option Three",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "option_four": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Option Four",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "option_five": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Option Five",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "option_six": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Option Six",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "second_box_heading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Second Box Heading",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        },
+        "second_box_sub_heading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Second Box Sub Heading",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "validation": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Validation",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "not_validation": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Not Validation",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "date": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Date",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "number_zero": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Number Zero",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "number_four": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Number Four",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "slice": {
+          "type": "Link",
+          "config": {
+            "label": "Slice",
+            "select": "document",
+            "repeat": false,
+            "customtypes": [
+              "first_row_slice"
+            ]
+          }
+        },
+        "done": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Done",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "warning": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Warning",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}
