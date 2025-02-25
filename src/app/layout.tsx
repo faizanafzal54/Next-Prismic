@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import {  Nunito, Nunito_Sans } from "next/font/google";
 import "./globals.css";
+import styles from "../styles/mainContainer.module.scss"
 
 const nunito = Nunito({
   subsets: ['latin'],
@@ -29,7 +30,7 @@ export default function RootLayout({
       <body
         className={`${nunito.variable} ${nunitoSans.variable} antialiased font-display font-medium text-black`}
       >
-        <div className="main">
+        <div className={styles.main}>
           {children}
         </div>
       </body>

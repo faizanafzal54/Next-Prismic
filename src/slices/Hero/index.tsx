@@ -23,14 +23,14 @@ const Hero: FC<HeroProps> = ({ slice }) => {
     <Bounded
       data-slice-type={slice.slice_type}
       data-slice-variation={slice.variation}
-      className="bg-brand-white text-[#101010]"
+      className="bg-brand-white text-[#101010] text-center"
     >
-      <div className="w-full h-full">
+      <div className={`w-full h-full ${styles.mainContainer}`}>
         <div className="text-center">
           <Heading className={styles.mainHeading}>
             <PrismicText field={slice.primary.heading} />
           </Heading>
-          <Heading className={styles.mainHeading}>
+          <Heading className={styles.mainHeadingTwo}>
             <PrismicText field={slice.primary.sub_heading} />
           </Heading>
           <div className={styles.subHeading}>

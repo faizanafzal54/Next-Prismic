@@ -1,3 +1,5 @@
+@import "variables.module.scss";
+
 .mainDiv {
   display: flex;
   padding-top: 64px;
@@ -7,11 +9,12 @@
 .first {
   width: 604px;
   height: 350px;
-  background-color: #101010;
+  background-color: $bg-color;
   padding: 0 32px;
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
-  color: #fff;
+  color: $text-color;
   border-radius: 16px;
   gap: 60px;
 }
@@ -31,8 +34,7 @@
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-  color: #b2b5b6;
-  margin-top: 8px;
+  color: $primary-color;
 }
 
 .labelDiv {
@@ -41,23 +43,31 @@
   align-items: center;
   gap: 8.06px;
   justify-content: left;
+  padding: 0 18.82px;
 }
 
-.labelIcon {
+.labelDiv:hover {
+  background-color: $hover-color;
+  border-radius: 8.06px;
 }
 
 .label {
   font-weight: 400;
   font-size: 12.1px;
   line-height: 14.52px;
-  color: #888c8f;
+  color: $stack-color;
+}
+
+.primaryContainer {
+  margin-bottom: 8px;
 }
 
 .second {
+  width: 604px;
   border-radius: 16px;
   padding: 32px;
-  background-color: #f4f5f5;
-  max-height: 350px;
+  background-color: $secondBg-color;
+  height: 350px;
   overflow: scroll;
 }
 
@@ -72,16 +82,68 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #525456;
+  color: $secondHead-color;
+}
+
+.secondbox {
+  margin-bottom: 8px;
 }
 
 .tableBox {
   margin-top: 38px;
-  background-color: #fff;
+  background-color: $text-color;
   padding: 15px;
   border-radius: 16px;
 }
+
 .cell {
   padding: 11px 16px;
   font-size: 12px;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 376px) {
+  .mainDiv {
+    width: 327px;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .first {
+    width: 327px;
+    height: 613px;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .secFirst {
+    padding-top: 0px;
+    height: 158px;
+  }
+
+  .primaryContainer {
+    margin-bottom: 8px;
+  }
+
+  .secondaryContainer {
+    width: 229px;
+  }
+
+  .labelDiv {
+    padding: 18.82px;
+  }
+
+  .second {
+    width: 327px;
+    height: 500px;
+    padding: 32px;
+  }
+
+  .secondbox {
+    margin-bottom: 8px;
+  }
+
+  .tableBox {
+    width: 530px;
+  }
 }

@@ -20,7 +20,7 @@ const ThirdRow: FC<ThirdRowProps> = ({ slice }) => {
       data-slice-type={slice.slice_type}
       data-slice-variation={slice.variation}
     >
-      <div className={`flex flex-col lg:flex-row ${styles.main}`}>
+      <div className={`flex flex-col lg:flex-row  ${styles.main}`}>
         <div className={styles.box}>
           <div>
             <span className={styles.heading}>
@@ -73,11 +73,11 @@ const ThirdRow: FC<ThirdRowProps> = ({ slice }) => {
             />
           </div>
         </div>
-        <div className={`${styles.boxTwo} relative`}>
-          <div className={styles.boxTwoBGImageBox}>
-            {/* Left Content with Text */}
-            <div className="absolute inset-0  opacity-60"></div>
-            <div className="absolute inset-0 flex flex-col justify-center px-8 text-white max-w-md">
+        <div className={`${styles.boxTwo} relative rounded-lg overflow-hidden`}>
+          <div className={`${styles.boxTwoBGImageBox} relative rounded-lg overflow-hidden`}>
+            <div className="absolute inset-0 bg-gradient-to-r from-[#000000] via-[#040000cc] to-transparent opacity-90 rounded-lg"></div>
+
+            <div className={`absolute inset-0 flex flex-col justify-center px-8 text-white max-w-md ${styles.imageContainer}`}>
               <span className="text-xl font-bold">
                 <PrismicRichText field={slice.primary.second_box_heading} />
               </span>
@@ -85,15 +85,15 @@ const ThirdRow: FC<ThirdRowProps> = ({ slice }) => {
                 <PrismicRichText field={slice.primary.paragraphdiscription} />
               </ParagraphText>
             </div>
+              <PrismicNextImage
+                alt=""
+                className="rounded-lg"
+                field={slice.primary.box_image}
+              />
 
-            {/* Right Content with Image */}
-            <PrismicNextImage
-              alt=""
-              className={styles.boxTwoBGImage}
-              field={slice.primary.box_image}
-            />
           </div>
         </div>
+
       </div>
     </Bounded>
   );

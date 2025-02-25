@@ -1,21 +1,41 @@
+@import "variables.module.scss";
+
 .mainDiv {
   margin-top: 24px;
   gap: 24px;
+  display: flex;
+  flex-direction: row;
 }
 
 .box {
-  width: 394.66px;
+  width: 394.67px;
   height: 350px;
   border-radius: 16px;
   padding: 32px;
-  background-color: #f4f5f5;
+  background-color: $secondBg-color;
+}
+
+.boxTwo {
+  width: 394.67px;
+  height: 350px;
+  border-radius: 16px;
+  padding: 32px;
+  background-color: $secondBg-color;
+}
+
+.secondBox {
+  width: 394.67px;
+  height: 350px;
+  border-radius: 16px;
+  padding: 32px;
+  background-color: $secondBg-color;
 }
 
 .heading {
   font-size: 22px;
   line-height: 26px;
   font-weight: 500;
-  color: #101010;
+  color: $bg-color;
 }
 
 .subText {
@@ -23,18 +43,18 @@
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0%;
-  color: #525456;
+  color: $secondHead-color;
   margin-top: 8px;
 }
 
 .firstChartBox {
   margin-top: 50px;
-  width: 330.6666564941406;
+  width: 330.6666564941406px;
   height: 134;
   gap: 31px;
   border-radius: 16px;
   padding: 24px;
-  background-color: #fff;
+  background-color: $text-color;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -42,16 +62,24 @@
 
 .boxTwoOptionsDiv {
   margin-top: 72px;
+  // height: px;
 }
 
 .boxTwoOptions {
-  width: 60;
-  height: 60;
-  background-color: #fff;
+  width: 60px;
+  height: 60px;
+  background-color: $text-color;
   border-radius: 12.67px;
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.boxTwoOptions:hover {
+  background-color: $parretHover-color;
+  transform: rotate(20deg);
 }
 
 .measureLabel {
@@ -59,8 +87,83 @@
   width: 104px;
   height: 28.79px;
   border-radius: 107.5px;
-  background-color: #fff;
+  background-color: $text-color;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.containerTwo {
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+
+
+
+
+@media screen and (max-width: 376px) {
+  .mainDiv {
+    flex-direction: column;
+    width: 327px;
+  }
+
+  .box {
+    width: 327px;
+    height: 350px;
+    gap: -18px;
+  }
+
+  .firstChartBox {
+    width: 263px;
+    height: 121px;
+    padding: 24px;
+    gap: 10px;
+  }
+
+  .topHeading {
+    margin-bottom: -12px;
+  }
+
+  .boxTwoOptionsDiv {
+    margin-top: 68px;
+  }
+
+  .secondBox {
+    width: 327px;
+    height: 412px;
+    justify-content: space-between;
+
+  }
+
+  .secondBoxContainer {
+    margin-bottom: 49px;
+  }
+
+
+  .boxTwo {
+    width: 327px;
+    height: 350px;
+    border-radius: 16px;
+    padding: 0px;
+    background-color: $secondBg-color;
+  }
+
+  .boxTwoOptionsDiv {
+    margin-top: 68px;
+    gap: 18px;
+    padding-left: 32px;
+    
+  }
+
+  .containerTwo {
+    padding-top: 32px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .iconbox{
+    width: 327px;
+  }
+
 }

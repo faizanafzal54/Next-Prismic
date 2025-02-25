@@ -7,6 +7,7 @@ import {
 } from "@prismicio/react";
 import { Bounded } from "@/components/Bounded";
 import styles from "../../styles/firstRow.module.scss";
+import { PrismicNextImage } from "@prismicio/next";
 
 /**
  * Props for `FirstRowSliced`.
@@ -23,15 +24,15 @@ const FirstRowSliced: FC<FirstRowSlicedProps> = ({ slice }) => {
       data-slice-type={slice.slice_type}
       data-slice-variation={slice.variation}
     >
-      <div className={`lg:flex-row ${styles.mainDiv}`}>
-        <div className={`First-box ${styles.first}`}>
+      <div className={` ${styles.mainDiv}`}>
+        <div className={`First-box  ${styles.first}`}>
           <div className={styles.secFirst}>
-            <div>
+            <div className={styles.primaryContainer}>
               <span className={styles.primaryHeading}>
                 <PrismicText field={slice.primary.heading} />
               </span>
             </div>
-            <div>
+            <div className={styles.secondaryContainer}>
               <span className={styles.secondaryHeading}>
                 <PrismicText field={slice.primary.second_heading} />
               </span>
@@ -39,37 +40,49 @@ const FirstRowSliced: FC<FirstRowSlicedProps> = ({ slice }) => {
           </div>
           <div className="w-full">
             <div className={styles.labelDiv}>
-              <span className={styles.labelIcon}>c</span>
+              <span className={styles.labelIcon}>
+                <PrismicNextImage field={slice.primary.logo_one} fallback="logo" />
+              </span>
               <span className={styles.label}>
                 <PrismicRichText field={slice.primary.option_one} />
               </span>
             </div>
             <div className={styles.labelDiv}>
-              <span className={styles.labelIcon}>c</span>
+              <span className={styles.labelIcon}>
+                <PrismicNextImage field={slice.primary.logo_two} fallback="logo"/>
+              </span>
               <span className={styles.label}>
                 <PrismicRichText field={slice.primary.option_two} />
               </span>
             </div>
             <div className={styles.labelDiv}>
-              <span className={styles.labelIcon}>c</span>
+              <span className={styles.labelIcon}>
+                <PrismicNextImage field={slice.primary.logo_three} fallback="logo"/>
+              </span>
               <span className={styles.label}>
                 <PrismicRichText field={slice.primary.option_three} />
               </span>
             </div>
             <div className={styles.labelDiv}>
-              <span className={styles.labelIcon}>c</span>
+              <span className={styles.labelIcon}>
+                <PrismicNextImage field={slice.primary.logo_four} fallback="logo" />
+              </span>
               <span className={styles.label}>
                 <PrismicRichText field={slice.primary.option_four} />
               </span>
             </div>
             <div className={styles.labelDiv}>
-              <span className={styles.labelIcon}>c</span>
+              <span className={styles.labelIcon}>
+                <PrismicNextImage field={slice.primary.logo_five} fallback="logo" />
+              </span>
               <span className={styles.label}>
                 <PrismicRichText field={slice.primary.option_five} />
               </span>
             </div>
             <div className={styles.labelDiv}>
-              <span className={styles.labelIcon}>c</span>
+              <span className={styles.labelIcon}>
+                <PrismicNextImage field={slice.primary.logo_six} fallback="logo" />
+              </span>
               <span className={styles.label}>
                 <PrismicRichText field={slice.primary.option_six} />
               </span>
@@ -78,10 +91,12 @@ const FirstRowSliced: FC<FirstRowSlicedProps> = ({ slice }) => {
         </div>
 
         <div className={`Second-box ${styles.second}`}>
-          <div className="w-[263px] lg:w-[540px] h-[106px]">
-            <span className={styles.secondPrimaryHeading}>
-              <PrismicRichText field={slice.primary.second_box_heading} />
-            </span>
+          <div className={`w-[263px] lg:w-[540px]  ${styles.secondContainer}`}>
+            <div className={styles.secondbox}>
+              <span className={styles.secondPrimaryHeading}>
+                <PrismicRichText field={slice.primary.second_box_heading} />
+              </span>
+            </div>
             <span className={styles.secondSecondaryHeading}>
               <PrismicRichText field={slice.primary.second_box_sub_heading} />
             </span>

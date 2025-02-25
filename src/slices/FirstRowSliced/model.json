@@ -175,6 +175,54 @@
             "allowTargetBlank": true,
             "single": "paragraph"
           }
+        },
+        "logo_one": {
+          "type": "Image",
+          "config": {
+            "label": "Logo One",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "logo_two": {
+          "type": "Image",
+          "config": {
+            "label": "Logo Two",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "logo_three": {
+          "type": "Image",
+          "config": {
+            "label": "Logo Three",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "logo_four": {
+          "type": "Image",
+          "config": {
+            "label": "Logo Four",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "logo_five": {
+          "type": "Image",
+          "config": {
+            "label": "Logo Five",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "logo_six": {
+          "type": "Image",
+          "config": {
+            "label": "Logo Six",
+            "constraint": {},
+            "thumbnails": []
+          }
         }
       },
       "items": {}

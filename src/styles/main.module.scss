@@ -1,4 +1,12 @@
+@import "variables.module.scss";
+
 .mainHeading {
+  font-size: 36px;
+  line-height: 43.2px;
+  font-weight: 500;
+}
+
+.mainHeadingTwo {
   font-size: 36px;
   line-height: 43.2px;
   font-weight: 500;
@@ -8,4 +16,25 @@
   font-size: 18px;
   line-height: 27px;
   font-weight: 400;
+  color: $mainHeading-color;
+}
+
+
+@media screen and (max-width: 376px) {
+  .mainHeading {
+    font-size: 26px;
+    line-height: 31.2px;
+    font-weight: 500;
+  }
+  .mainHeadingTwo{
+    font-size: 26px;
+    line-height: 31.2px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  .subHeading {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+  }
 }

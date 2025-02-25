@@ -446,6 +446,66 @@ export interface FirstRowSlicedSliceDefaultPrimary {
    * - **Documentation**: https://prismic.io/docs/field#rich-text-title
    */
   warning: prismic.RichTextField;
+
+  /**
+   * Logo One field in *FirstRowSliced → Default → Primary*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: first_row_sliced.default.primary.logo_one
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  logo_one: prismic.ImageField<never>;
+
+  /**
+   * Logo Two field in *FirstRowSliced → Default → Primary*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: first_row_sliced.default.primary.logo_two
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  logo_two: prismic.ImageField<never>;
+
+  /**
+   * Logo Three field in *FirstRowSliced → Default → Primary*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: first_row_sliced.default.primary.logo_three
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  logo_three: prismic.ImageField<never>;
+
+  /**
+   * Logo Four field in *FirstRowSliced → Default → Primary*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: first_row_sliced.default.primary.logo_four
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  logo_four: prismic.ImageField<never>;
+
+  /**
+   * Logo Five field in *FirstRowSliced → Default → Primary*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: first_row_sliced.default.primary.logo_five
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  logo_five: prismic.ImageField<never>;
+
+  /**
+   * Logo Six field in *FirstRowSliced → Default → Primary*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: first_row_sliced.default.primary.logo_six
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  logo_six: prismic.ImageField<never>;
 }
 
 /**
@@ -663,6 +723,66 @@ export interface SecondRowSliceSliceDefaultPrimary {
    * - **Documentation**: https://prismic.io/docs/field#rich-text-title
    */
   third_sub_heading: prismic.RichTextField;
+
+  /**
+   * Logo One field in *SecondRowSlice → Default → Primary*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: second_row_slice.default.primary.logo_one
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  logo_one: prismic.ImageField<never>;
+
+  /**
+   * Logo Two field in *SecondRowSlice → Default → Primary*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: second_row_slice.default.primary.logo_two
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  logo_two: prismic.ImageField<never>;
+
+  /**
+   * Logo Three field in *SecondRowSlice → Default → Primary*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: second_row_slice.default.primary.logo_three
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  logo_three: prismic.ImageField<never>;
+
+  /**
+   * Logo Four field in *SecondRowSlice → Default → Primary*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: second_row_slice.default.primary.logo_four
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  logo_four: prismic.ImageField<never>;
+
+  /**
+   * Logo Five field in *SecondRowSlice → Default → Primary*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: second_row_slice.default.primary.logo_five
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  logo_five: prismic.ImageField<never>;
+
+  /**
+   * Logo Six field in *SecondRowSlice → Default → Primary*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: second_row_slice.default.primary.logo_six
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  logo_six: prismic.ImageField<never>;
 }
 
 /**

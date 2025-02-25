@@ -5,6 +5,7 @@ import { Bounded } from "@/components/Bounded";
 import { RepeatHeading } from "@/components/RepeatHeading";
 import { ParagraphText } from "@/components/ParagraphText";
 import styles from "../../styles/secondRow.module.scss";
+import { PrismicNextImage } from "@prismicio/next";
 /**
  * Props for `SecondRowSlice`.
  */
@@ -26,9 +27,9 @@ const SecondRowSlice: FC<SecondRowSliceProps> = ({ slice }) => {
       data-slice-type={slice.slice_type}
       data-slice-variation={slice.variation}
     >
-      <div className={`flex flex-col lg:flex-row ${styles.mainDiv}`}>
+      <div className={` ${styles.mainDiv}`}>
         <div className={`${styles.box} flex flex-col`}>
-          <div className="top-heading">
+          <div className={styles.topHeading}>
             <span className={styles.heading}>
               <PrismicRichText field={slice.primary.heading} />
             </span>
@@ -71,8 +72,8 @@ const SecondRowSlice: FC<SecondRowSliceProps> = ({ slice }) => {
             </div>
           </div>
         </div>
-        <div className={`${styles.box} flex flex-col`}>
-          <div>
+        <div className={`${styles.boxTwo} flex flex-col`}>
+          <div className={styles.containerTwo}>
             <span className={styles.heading}>
               <PrismicRichText field={slice.primary.second_heading} />
             </span>
@@ -80,16 +81,42 @@ const SecondRowSlice: FC<SecondRowSliceProps> = ({ slice }) => {
               <PrismicRichText field={slice.primary.second_sub_heading} />
             </div>
           </div>
-          <div className={`grid grid-cols-4 gap-4 ${styles.boxTwoOptionsDiv}`}>
-            {[1, 2, 3, 4, 5, 6, 7, 8].map((item) => (
-              <div key={item} className={styles.boxTwoOptions}>
-                a
+          <div className={`flex flex-col gap-[8px] overflow-scroll ${styles.boxTwoOptionsDiv}`}>
+            <div className={`flex flex-row gap-[8px] ${styles.iconbox}`}>
+              <div className={styles.boxTwoOptions}>
+                <PrismicNextImage field={slice.primary.logo_one} />
               </div>
-            ))}
+              <span className={styles.boxTwoOptions}>
+
+              </span>
+              <span className={styles.boxTwoOptions}>
+                <PrismicNextImage field={slice.primary.logo_two} />
+              </span>
+              <span className={styles.boxTwoOptions}>
+                <PrismicNextImage field={slice.primary.logo_three} />
+              </span>
+              <span className={styles.boxTwoOptions}></span>
+            </div>
+            <div className={`flex flex-row gap-[8px] ${styles.iconbox}`}>
+              <span className={styles.boxTwoOptions}>
+                <PrismicNextImage field={slice.primary.logo_four} />
+              </span>
+              <span className={styles.boxTwoOptions}></span>
+              <span className={styles.boxTwoOptions}>
+              </span>
+              <span className={styles.boxTwoOptions}>
+                <PrismicNextImage field={slice.primary.logo_five} />
+              </span>
+              <span className={styles.boxTwoOptions}>
+                <PrismicNextImage field={slice.primary.logo_six} />
+              </span>
+            </div>
+
+
           </div>
         </div>
-        <div className={`${styles.box}`}>
-          <div>
+        <div className={`${styles.secondBox}`}>
+          <div className={styles.secondBoxContainer}>
             <span className={styles.heading}>
               <PrismicRichText field={slice.primary.thirdheading} />
             </span>
