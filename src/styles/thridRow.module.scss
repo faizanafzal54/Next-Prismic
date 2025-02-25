@@ -54,12 +54,12 @@
 .customerImages {
   max-height: 88px;
 }
-.imageContainer{
+.imageContainer {
   margin-top: -6rem;
   width: 293px;
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 425px) {
   .main {
     width: 327px;
     gap: 24px;
@@ -82,8 +82,7 @@
   .boxTwo {
     margin-top: 4px;
   }
-  .imageContainer{
+  .imageContainer {
     margin-top: -7rem;
   }
-  
 }

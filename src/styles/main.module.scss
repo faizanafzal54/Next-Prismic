@@ -19,14 +19,13 @@
   color: $mainHeading-color;
 }
 
-
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 425px) {
   .mainHeading {
     font-size: 26px;
     line-height: 31.2px;
     font-weight: 500;
   }
-  .mainHeadingTwo{
+  .mainHeadingTwo {
     font-size: 26px;
     line-height: 31.2px;
     font-weight: 500;

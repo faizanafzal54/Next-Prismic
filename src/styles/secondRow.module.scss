@@ -99,11 +99,7 @@
   padding-right: 0px;
 }
 
-
-
-
-
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 425px) {
   .mainDiv {
     flex-direction: column;
     width: 327px;
@@ -134,13 +130,11 @@
     width: 327px;
     height: 412px;
     justify-content: space-between;
-
   }
 
   .secondBoxContainer {
     margin-bottom: 49px;
   }
-
 
   .boxTwo {
     width: 327px;
@@ -154,7 +148,6 @@
     margin-top: 68px;
     gap: 18px;
     padding-left: 32px;
-    
   }
 
   .containerTwo {
@@ -162,8 +155,7 @@
     padding-left: 32px;
     padding-right: 32px;
   }
-  .iconbox{
+  .iconbox {
     width: 327px;
   }
-
 }
